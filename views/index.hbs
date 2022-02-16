@@ -1,0 +1,14 @@
+<h1> Names </h1>
+
+{{#each names}}
+
+    <h2> {{ this }} </h2>
+
+{{/each}}
+
+
+<form action="/" method="post">
+    <input type="text" name="name" id="name">
+
+    <input type="submit" value="Add Name">
+</form>
